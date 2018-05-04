@@ -10,6 +10,10 @@
 <body>
 	<div id="app">
 		<Myhead></Myhead>
+		<div class="container">
+			<!-- component matched by the route will render here -->
+  			<router-view></router-view>
+		</div>
 		<Myfooter></Myfooter>
 	</div>
 	<script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
